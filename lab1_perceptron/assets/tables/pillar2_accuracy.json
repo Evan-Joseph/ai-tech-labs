@@ -1,0 +1,18 @@
+[
+  {
+    "model": "Perceptron",
+    "test_accuracy": 0.5333333333333333
+  },
+  {
+    "model": "PocketPerceptron",
+    "test_accuracy": 0.8416666666666667
+  },
+  {
+    "model": "AveragedPerceptron",
+    "test_accuracy": 0.8583333333333333
+  },
+  {
+    "model": "MarginPerceptron",
+    "test_accuracy": 0.6333333333333333
+  }
+]

@@ -1,0 +1,5 @@
+model,test_accuracy
+AveragedPerceptron,0.8583333333333333
+PocketPerceptron,0.8416666666666667
+MarginPerceptron,0.6333333333333333
+Perceptron,0.5333333333333333

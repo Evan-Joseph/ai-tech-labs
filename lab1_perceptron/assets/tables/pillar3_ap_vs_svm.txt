@@ -1,0 +1,2 @@
+AveragedPerceptron test acc: 0.8583
+LinearSVC test acc:        0.8500

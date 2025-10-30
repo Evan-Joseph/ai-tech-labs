@@ -1,0 +1,16 @@
+name: perceptron-lab
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - numpy
+  - scipy
+  - scikit-learn
+  - matplotlib
+  - seaborn
+  - pandas
+  - jupyter
+  - pip
+  - pip:
+      - tabulate
