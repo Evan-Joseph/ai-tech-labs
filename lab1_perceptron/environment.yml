@@ -1,16 +1,52 @@
+# 感知器实验项目 - Conda环境配置文件
+# 此文件定义了运行项目所需的Python环境和依赖包
+
 name: perceptron-lab
 channels:
-  - conda-forge
-  - defaults
+  - conda-forge  # 优先使用conda-forge频道，提供最新版本的包
+  - defaults     # 备用默认频道
+
 dependencies:
+  # 核心Python版本
   - python=3.11
-  - numpy
-  - scipy
-  - scikit-learn
-  - matplotlib
-  - seaborn
-  - pandas
-  - jupyter
-  - pip
+  
+  # 科学计算基础包
+  - numpy        # 数值计算核心库
+  - scipy        # 科学计算工具包
+  - scikit-learn # 机器学习库（用于SVM比较和数据集处理）
+  
+  # 数据可视化包
+  - matplotlib   # 基础绘图库
+  - seaborn      # 统计可视化库（提供美观的图表样式）
+  
+  # 数据处理
+  - pandas       # 数据分析和表格处理
+  
+  # 开发工具
+  - jupyter      # Jupyter笔记本环境（可选，用于交互式探索）
+  
+  # 包管理工具
+  - pip          # Python包安装器
+  
+  # 通过pip安装的包（conda中不可用或版本不匹配时）
   - pip:
-      - tabulate
+      - tabulate # 表格格式化输出库
+
+# =============================================================================
+# 使用说明：
+# 
+# 1. 创建环境：
+#    conda env create -f environment.yml
+# 
+# 2. 激活环境：
+#    conda activate perceptron-lab
+# 
+# 3. 更新环境（当environment.yml有修改时）：
+#    conda env update -f environment.yml --prune
+# 
+# 4. 删除环境：
+#    conda env remove -n perceptron-lab
+# 
+# 5. 导出当前环境（用于备份或分享）：
+#    conda env export > environment_backup.yml
+# =============================================================================

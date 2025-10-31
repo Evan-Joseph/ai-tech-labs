@@ -1,0 +1,27 @@
+\begin{table}
+\centering
+\caption{不同噪声水平下感知器变体的性能表现}
+\label{tab:pillar2-noise}
+\begin{tabular}{lrrrrr}
+\toprule
+模型 & 噪声水平 & 准确率 & 精确率 & 召回率 & F1分数 \\
+\midrule
+AveragedPerceptron & 0.0500 & 0.9417 & 0.9636 & 0.9138 & 0.9381 \\
+AveragedPerceptron & 0.1000 & 0.8583 & 0.8545 & 0.8393 & 0.8468 \\
+AveragedPerceptron & 0.1500 & 0.8250 & 0.7966 & 0.8393 & 0.8174 \\
+AveragedPerceptron & 0.2000 & 0.7917 & 0.7460 & 0.8393 & 0.7899 \\
+MarginPerceptron & 0.0500 & 0.8417 & 0.9535 & 0.7069 & 0.8119 \\
+MarginPerceptron & 0.1000 & 0.6333 & 0.9286 & 0.2321 & 0.3714 \\
+MarginPerceptron & 0.1500 & 0.7000 & 0.6220 & 0.9107 & 0.7391 \\
+MarginPerceptron & 0.2000 & 0.6417 & 0.5714 & 0.9286 & 0.7075 \\
+Perceptron & 0.0500 & 0.7833 & 0.9444 & 0.5862 & 0.7234 \\
+Perceptron & 0.1000 & 0.5333 & 0.0000 & 0.0000 & 0.0000 \\
+Perceptron & 0.1500 & 0.8000 & 0.7581 & 0.8393 & 0.7966 \\
+Perceptron & 0.2000 & 0.4667 & 0.4667 & 1.0000 & 0.6364 \\
+PocketPerceptron & 0.0500 & 0.9417 & 0.9636 & 0.9138 & 0.9381 \\
+PocketPerceptron & 0.1000 & 0.8417 & 0.8136 & 0.8571 & 0.8348 \\
+PocketPerceptron & 0.1500 & 0.8417 & 0.8246 & 0.8393 & 0.8319 \\
+PocketPerceptron & 0.2000 & 0.8000 & 0.7424 & 0.8750 & 0.8033 \\
+\bottomrule
+\end{tabular}
+\end{table}

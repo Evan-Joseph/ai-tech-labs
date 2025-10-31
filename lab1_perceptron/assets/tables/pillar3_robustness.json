@@ -1,0 +1,57 @@
+[
+  {
+    "noise_level": 0.0,
+    "AveragedPerceptron": 0.8583333333333333,
+    "LinearSVC": 0.85
+  },
+  {
+    "noise_level": 0.02,
+    "AveragedPerceptron": 0.8583333333333333,
+    "LinearSVC": 0.85
+  },
+  {
+    "noise_level": 0.04,
+    "AveragedPerceptron": 0.8583333333333333,
+    "LinearSVC": 0.85
+  },
+  {
+    "noise_level": 0.06,
+    "AveragedPerceptron": 0.85,
+    "LinearSVC": 0.85
+  },
+  {
+    "noise_level": 0.08,
+    "AveragedPerceptron": 0.8583333333333333,
+    "LinearSVC": 0.85
+  },
+  {
+    "noise_level": 0.1,
+    "AveragedPerceptron": 0.8416666666666667,
+    "LinearSVC": 0.8583333333333333
+  },
+  {
+    "noise_level": 0.12,
+    "AveragedPerceptron": 0.8583333333333333,
+    "LinearSVC": 0.85
+  },
+  {
+    "noise_level": 0.14,
+    "AveragedPerceptron": 0.8583333333333333,
+    "LinearSVC": 0.8583333333333333
+  },
+  {
+    "noise_level": 0.16,
+    "AveragedPerceptron": 0.85,
+    "LinearSVC": 0.85
+  },
+  {
+    "noise_level": 0.18,
+    "AveragedPerceptron": 0.85,
+    "LinearSVC": 0.8583333333333333
+  },
+  {
+    "noise_level": 0.2,
+    "AveragedPerceptron": 0.85,
+    "LinearSVC": 0.85
+  }
+]

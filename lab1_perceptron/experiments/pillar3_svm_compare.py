@@ -1,11 +1,16 @@
 #!/usr/bin/env python3
 from __future__ import annotations
 
+import sys
 from pathlib import Path
 import numpy as np
 import matplotlib.pyplot as plt
 from sklearn.svm import LinearSVC
 from sklearn.metrics import accuracy_score
+
+# 添加项目根目录到Python路径
+project_root = Path(__file__).resolve().parent.parent
+sys.path.insert(0, str(project_root))
 
 from src.data.datasets import make_nearly_separable_with_noise, train_test_split_xy
 from src.models.perceptron import AveragedPerceptron
