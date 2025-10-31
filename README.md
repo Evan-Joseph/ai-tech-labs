@@ -1,5 +1,11 @@
 # 人工智能技术课程实验
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+![Python](https://img.shields.io/badge/python-3.11-blue.svg)
+![Last commit](https://img.shields.io/github/last-commit/Evan-Joseph/ai-tech-labs?color=brightgreen)
+![Issues](https://img.shields.io/github/issues/Evan-Joseph/ai-tech-labs)
+![Stars](https://img.shields.io/github/stars/Evan-Joseph/ai-tech-labs?style=social)
+
 本仓库是为了配合《人工智能技术》课程的实验报告而专门设置。仓库仅包含可复现实验的代码与产出（图/表），不包含报告（LaTeX/论文）文件。
 
 ## 实验总览（5 个实验，每个一个文件夹）
