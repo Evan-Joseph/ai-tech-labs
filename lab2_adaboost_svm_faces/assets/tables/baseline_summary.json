@@ -1,0 +1,6 @@
+{
+  "accuracy": 0.9833333333333333,
+  "train_samples": 280,
+  "test_samples": 120,
+  "n_components": 120
+}

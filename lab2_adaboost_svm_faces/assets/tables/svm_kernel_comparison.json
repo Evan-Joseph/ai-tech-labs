@@ -1,0 +1,14 @@
+[
+  {
+    "kernel_name":"RBF核",
+    "test_accuracy_percent":98.3333333333
+  },
+  {
+    "kernel_name":"线性核",
+    "test_accuracy_percent":97.5
+  },
+  {
+    "kernel_name":"多项式核",
+    "test_accuracy_percent":90.8333333333
+  }
+]

@@ -1,0 +1,11 @@
+{
+  "fold_accuracies_percent": [
+    98.75,
+    97.5,
+    96.25,
+    96.25,
+    95.0
+  ],
+  "mean_accuracy_percent": 96.75,
+  "std_accuracy_percent": 1.4252192813739224
+}

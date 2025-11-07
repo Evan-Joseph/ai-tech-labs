@@ -1,0 +1,9 @@
+{
+  "train_samples": 400,
+  "n_features": 4096,
+  "n_classes": 40,
+  "pca_components": 120,
+  "svm_C": 10.0,
+  "svm_gamma": "scale",
+  "model_path": "pca_svm_recognizer.joblib"
+}

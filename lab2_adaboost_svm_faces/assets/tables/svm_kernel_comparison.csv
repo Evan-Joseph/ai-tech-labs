@@ -1,0 +1,4 @@
+kernel_name,test_accuracy_percent
+RBF核,98.33333333333333
+线性核,97.5
+多项式核,90.83333333333333

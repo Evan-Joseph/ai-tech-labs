@@ -1,0 +1,248 @@
+[
+  {
+    "file": "动态模糊的人脸.jpg",
+    "faces_detected": 2,
+    "predictions": [
+      {
+        "bbox": [
+          912,
+          744,
+          416,
+          416
+        ],
+        "label": "ID 06",
+        "confidence": 0.08089844595477418
+      },
+      {
+        "bbox": [
+          269,
+          3032,
+          63,
+          63
+        ],
+        "label": "ID 00",
+        "confidence": 0.07663410508583164
+      }
+    ],
+    "output": "assets/figures/challenge_results/01_image.jpg",
+    "original_name": "动态模糊的人脸.jpg"
+  },
+  {
+    "file": "四张人脸合影戴帽子或戴墨镜或戴口罩或不戴.jpg",
+    "faces_detected": 14,
+    "predictions": [
+      {
+        "bbox": [
+          322,
+          702,
+          46,
+          46
+        ],
+        "label": "ID 38",
+        "confidence": 0.07568606171807994
+      },
+      {
+        "bbox": [
+          1010,
+          709,
+          126,
+          126
+        ],
+        "label": "ID 06",
+        "confidence": 0.10513036566295646
+      },
+      {
+        "bbox": [
+          1616,
+          972,
+          173,
+          173
+        ],
+        "label": "ID 06",
+        "confidence": 0.11899210465775825
+      },
+      {
+        "bbox": [
+          23,
+          940,
+          73,
+          73
+        ],
+        "label": "ID 00",
+        "confidence": 0.07683613586618683
+      },
+      {
+        "bbox": [
+          2910,
+          1475,
+          53,
+          53
+        ],
+        "label": "ID 06",
+        "confidence": 0.07376052372591027
+      },
+      {
+        "bbox": [
+          1455,
+          1486,
+          93,
+          93
+        ],
+        "label": "ID 31",
+        "confidence": 0.09792853028735726
+      },
+      {
+        "bbox": [
+          873,
+          1547,
+          99,
+          99
+        ],
+        "label": "ID 38",
+        "confidence": 0.1787326162939696
+      },
+      {
+        "bbox": [
+          1671,
+          1703,
+          158,
+          158
+        ],
+        "label": "ID 06",
+        "confidence": 0.12766232627513613
+      },
+      {
+        "bbox": [
+          3938,
+          1766,
+          54,
+          54
+        ],
+        "label": "ID 31",
+        "confidence": 0.053797584753646446
+      },
+      {
+        "bbox": [
+          1929,
+          1861,
+          330,
+          330
+        ],
+        "label": "ID 06",
+        "confidence": 0.1158981126556985
+      },
+      {
+        "bbox": [
+          3435,
+          1941,
+          55,
+          55
+        ],
+        "label": "ID 00",
+        "confidence": 0.08022606590480795
+      },
+      {
+        "bbox": [
+          2599,
+          2093,
+          75,
+          75
+        ],
+        "label": "ID 00",
+        "confidence": 0.0892699706371349
+      },
+      {
+        "bbox": [
+          1978,
+          2335,
+          116,
+          116
+        ],
+        "label": "ID 06",
+        "confidence": 0.07522930010048955
+      },
+      {
+        "bbox": [
+          2468,
+          2326,
+          51,
+          51
+        ],
+        "label": "ID 38",
+        "confidence": 0.08537970852159715
+      }
+    ],
+    "output": "assets/figures/challenge_results/02_image.jpg",
+    "original_name": "四张人脸合影戴帽子或戴墨镜或戴口罩或不戴.jpg"
+  },
+  {
+    "file": "戴眼镜的侧面人脸.jpg",
+    "faces_detected": 3,
+    "predictions": [
+      {
+        "bbox": [
+          498,
+          708,
+          76,
+          76
+        ],
+        "label": "ID 38",
+        "confidence": 0.1320775532358489
+      },
+      {
+        "bbox": [
+          299,
+          894,
+          222,
+          222
+        ],
+        "label": "ID 06",
+        "confidence": 0.10064776621516977
+      },
+      {
+        "bbox": [
+          719,
+          1473,
+          66,
+          66
+        ],
+        "label": "ID 35",
+        "confidence": 0.07593309336628867
+      }
+    ],
+    "output": "assets/figures/challenge_results/03_image.jpg",
+    "original_name": "戴眼镜的侧面人脸.jpg"
+  },
+  {
+    "file": "托腮的侧面人脸.jpg",
+    "faces_detected": 1,
+    "predictions": [
+      {
+        "bbox": [
+          162,
+          473,
+          52,
+          52
+        ],
+        "label": "ID 38",
+        "confidence": 0.050755557879863765
+      }
+    ],
+    "output": "assets/figures/challenge_results/04_image.jpg",
+    "original_name": "托腮的侧面人脸.jpg"
+  },
+  {
+    "file": "猫和老鼠中的汤姆meme.jpg",
+    "faces_detected": 0,
+    "predictions": [],
+    "output": "assets/figures/challenge_results/05_meme.jpg",
+    "original_name": "猫和老鼠中的汤姆meme.jpg"
+  },
+  {
+    "file": "躺着的人脸.jpg",
+    "faces_detected": 0,
+    "predictions": [],
+    "output": "assets/figures/challenge_results/06_image.jpg",
+    "original_name": "躺着的人脸.jpg"
+  }
+]
