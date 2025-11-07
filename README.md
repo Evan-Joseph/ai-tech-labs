@@ -24,3 +24,16 @@
 - 创建/激活环境（conda 或 pip）
 - 运行一键脚本 `experiments/run_all.py` 或分项脚本
 - 结果图表将保存到该实验的 `assets/` 目录
+
+## 环境设置（Git LFS）
+
+本项目使用 Git LFS 管理大型模型文件（例如 `lab2_adaboost_svm_faces/models/*.dat`）。
+
+克隆仓库后，请确保你已安装 Git LFS，并执行以下命令来拉取模型文件：
+
+```bash
+git lfs install
+git lfs pull
+```
+
+如果你的环境尚未安装 Git LFS，请参考官方文档安装：https://git-lfs.com/
