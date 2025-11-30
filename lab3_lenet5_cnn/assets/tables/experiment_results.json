@@ -1,0 +1,29 @@
+{
+  "LeNet-5": {
+    "test_accuracy": 0.9569,
+    "test_loss": 0.1271840361449176,
+    "training_time": 312.28676199913025,
+    "final_metrics": {
+      "test_accuracy": 0.9569,
+      "test_loss": 0.1271840361449176
+    }
+  },
+  "VGG": {
+    "test_accuracy": 0.9923000000000001,
+    "test_loss": 0.03245669843333642,
+    "training_time": 781.7037270069122,
+    "final_metrics": {
+      "test_accuracy": 0.9923000000000001,
+      "test_loss": 0.03245669843333642
+    }
+  },
+  "ResNet": {
+    "test_accuracy": 0.9937999999999999,
+    "test_loss": 0.02115039228768062,
+    "training_time": 10681.563585042953,
+    "final_metrics": {
+      "test_accuracy": 0.9937999999999999,
+      "test_loss": 0.02115039228768062
+    }
+  }
+}
