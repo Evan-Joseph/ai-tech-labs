@@ -1,0 +1,18 @@
+# Data
+data/
+*.tgz
+
+# Model Checkpoints (Large files)
+assets/checkpoints/
+*.pth
+
+# Python cache
+__pycache__/
+*.pyc
+
+# IDE settings
+.vscode/
+.idea/
+
+# Reports (Do not commit to repo)
+docs/

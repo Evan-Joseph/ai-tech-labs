@@ -1,0 +1,18 @@
+name: ai_lab_04_resnet
+channels:
+  - pytorch
+  - defaults
+dependencies:
+  - python=3.11
+  - pytorch
+  - torchvision
+  - torchaudio
+  - matplotlib
+  - pandas
+  - seaborn
+  - scikit-learn
+  - pip
+  - pip:
+    - grad-cam
+    - opencv-python
+    - tqdm
