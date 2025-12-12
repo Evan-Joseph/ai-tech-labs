@@ -11,10 +11,10 @@
 ## 实验总览（5 个实验，每个一个文件夹）
 
 1. `lab1_perceptron/` 感知器线性分类器的设计实现（含二分类、多类与 LDA 拓展）
-2. `lab2_adaboost_svm_faces/` 基于 Adaboost 及 SVM 的人脸识别程序的设计实现（占位，待补充）
-3. `lab3_lenet5_cnn/` 卷积神经网络 LeNet-5 框架的设计实现及应用（占位，待补充）
-4. `lab4_resnet_imagenet/` ResNet 神经网络实现 ImageNet 图像分类（占位，待补充）
-5. `lab5_lstm_rnn/` 循环神经网络 LSTM 的实现及应用（占位，待补充）
+2. `lab2_adaboost_svm_faces/` 基于 Adaboost 及 SVM 的人脸识别程序的设计实现
+3. `lab3_lenet5_cnn/` 卷积神经网络 LeNet-5 框架的设计实现及应用
+4. `lab4_resnet_imagenet/` ResNet 神经网络实现 ImageNet 图像分类（含 Grad-CAM 可视化）
+5. `lab5_lstm_rnn/` 基于 LSTM/RNN 的时间序列预测（ARIMA、Prophet、LSTM、GRU、Transformer 多模型对比）
 
 > 每个实验具体内容见对应子目录 `README.md`。
 
