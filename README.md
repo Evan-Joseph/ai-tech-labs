@@ -16,6 +16,29 @@
 
 ---
 
+## 🖼️ 经典实验可视化画廊 (Visual Benchmarks & Output Gallery)
+
+| Lab 1: 线性可分判别面迭代收敛 | Lab 2: 特征脸 (Eigenfaces) 空间正交基 |
+| :---: | :---: |
+| <img src="lab1_perceptron/assets/figures/pillar1_linear_separable_boundary.png" width="380" alt="PLA Decision Boundary" /> | <img src="lab2_adaboost_svm_faces/assets/figures/baseline_top_eigenfaces.png" width="380" alt="Top Eigenfaces Decomposition" /> |
+| **感知器学习算法**：超平面动态逼近、间隔更新与两类样本分类边界演化。 | **主成分分析与正交分解**：高维人脸空间特征解耦与前 10 阶 Eigenfaces 重构。 |
+
+| Lab 3: 深度卷积神经网络特征图演化 | Lab 4: Grad-CAM 空间注意力热力图 |
+| :---: | :---: |
+| <img src="lab3_lenet5_cnn/assets/figures/resnet_feature_maps.png" width="380" alt="CNN Feature Maps" /> | <img src="lab4_resnet_imagenet/assets/figures/cam_0.png" width="380" alt="Grad-CAM Saliency Map" /> |
+| **层级语义表征提取**：从低层边缘纹理到高层类别语义的激活强度对比。 | **深度决策可解释性**：反向传播梯度加权类激活映射，精确定位图像核心判别区域。 |
+
+<details>
+<summary>📊 <b>点击展开查看：更多分类混淆矩阵与投影对比 (Click to view confusion matrices & projections)</b></summary>
+<br>
+<p align="center">
+  <img src="lab1_perceptron/assets/figures/lda_faces_2d_projection.png" width="360" alt="LDA 2D Projection" style="margin: 6px;" />
+  <img src="lab4_resnet_imagenet/assets/figures/confusion_matrix.png" width="360" alt="ResNet Confusion Matrix" style="margin: 6px;" />
+</p>
+</details>
+
+---
+
 ## 📖 项目简介 (Overview)
 
 **AI Tech Labs** 是一套面向高校与研究者的经典人工智能与深度学习算法复现基准库。
@@ -42,10 +65,10 @@
 ai-tech-labs/
 ├── lab1_perceptron/              # 线性可分与不可分数据集下的感知机实现
 │   ├── experiments/              # 训练与分项测试脚本
-│   └── assets/                   # 生成的分类面与投影可视化图表
+│   └── assets/figures/           # 生成的分类面与投影可视化图表
 ├── lab2_adaboost_svm_faces/      # 特征抽取与人脸分类
 │   ├── models/                   # 预训练权重 (Git LFS 托管)
-│   └── experiments/
+│   └── assets/figures/
 ├── lab3_lenet5_cnn/              # PyTorch LeNet-5 骨干网络与自研梯度验证
 ├── lab4_resnet_imagenet/         # ResNet 迁移学习与 Grad-CAM 可解释性分析
 ├── lab5_lstm_rnn/                # 时间序列多模型基准对比评测套件
@@ -87,7 +110,7 @@ cd lab4_resnet_imagenet
 python experiments/run_gradcam.py
 ```
 
-实验生成的收敛图、热力图将自动保存至对应实验目录下的 `assets/` 文件夹中。
+实验生成的收敛图、热力图将自动保存至对应实验目录下的 `assets/figures/` 文件夹中。
 
 ---
 
